@@ -1,5 +1,5 @@
 {
-  "stack": "heroku-14",
+  "stack": "cedar-14",
   "environments": {
     "test": {
       "buildpacks": [
@@ -8,7 +8,7 @@
         },
         {
           "url": "https://github.com/heroku/heroku-buildpack-xvfb-google-chrome"
-        }
+        },
         {
           "url": "heroku/nodejs"
         }
