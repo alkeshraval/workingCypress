@@ -1,10 +1,14 @@
 {
+  "stack": "heroku-14",
   "environments": {
     "test": {
       "buildpacks": [
         {
           "url": "https://github.com/heroku/heroku-buildpack-apt"
         },
+        {
+          "url": "https://github.com/heroku/heroku-buildpack-xvfb-google-chrome"
+        }
         {
           "url": "heroku/nodejs"
         }
