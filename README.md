@@ -1,5 +1,5 @@
 ## Known Issues
-- require use of deprecated cedar-14 heroku stack
+- Requires use of deprecated cedar-14 heroku stack
 - Cypress does not output in [TAP format so failed tests appear green](https://devcenter.heroku.com/articles/testpack-api#output).
 
 ## Example Output
