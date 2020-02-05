@@ -1,10 +1,10 @@
 {
-  "stack": "cedar-14",
+  "stack": "cedar-18",
   "environments": {
     "test": {
       "buildpacks": [
         {
-          "url": "https://github.com/heroku/heroku-buildpack-xvfb-google-chrome"
+          "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
         },
         {
           "url": "heroku/nodejs"
